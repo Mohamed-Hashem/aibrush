@@ -1,25 +1,15 @@
-/* AiBrush App Styles */
-/* Most styling handled by Tailwind, this file for any custom utilities */
-
 #root {
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
-/* Smooth scroll behavior */
-html {
-  scroll-behavior: smooth;
+body {
+  overflow-x: hidden;
 }
-
-/* Custom animation for ping effect */
-@keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-.animate-ping {
-  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+header[class*="fixed"] {
+  will-change: background-color, backdrop-filter;
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
