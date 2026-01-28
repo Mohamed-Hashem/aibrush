@@ -85,23 +85,21 @@ I chose a **split layout** with copy/CTA on the left and interactive showcase on
 
 ### Key Design Elements Implemented
 
-| Element                     | Purpose                                                        |
-| --------------------------- | -------------------------------------------------------------- |
-| **Social proof badge**      | "Trusted by 50,000+ creators" builds credibility               |
-| **Feature checklist**       | 4 key benefits with checkmarks for quick scanning              |
-| **Interactive carousel**    | Shows all 4 media types without overwhelming                   |
-| **Floating animated icons** | Adds depth and visual interest                                 |
-| **Comparison badge**        | "5+ Tools vs 1 Workspace" highlights key differentiator        |
-| **Trust badges**            | "No credit card required • Free forever plan" removes friction |
-| **Bottom CTA section**      | Catches visitors who scroll past hero                          |
+| Element                     | Purpose                                                  |
+| --------------------------- | -------------------------------------------------------- |
+| **Feature checklist**       | 3 key benefits with checkmarks for quick scanning        |
+| **Interactive carousel**    | Shows all 4 media types without overwhelming             |
+| **Floating animated icons** | Adds depth and visual interest                           |
+| **Timeline preview**        | Shows multi-track editing capability                     |
+| **Trust badges**            | "Free trial available • Flexible plans" removes friction |
+| **Bottom CTA section**      | Catches visitors who scroll past hero                    |
 
 ### Animation Strategy
 
-| Animation         | Purpose                                   |
-| ----------------- | ----------------------------------------- |
-| `animate-pulse`   | Subtle background orbs create atmosphere  |
-| `animate-bounce`  | Bouncing icons for visual prominence      |
-| `animate-fade-in` | Staged content reveal maintains hierarchy |
+| Animation        | Purpose                                  |
+| ---------------- | ---------------------------------------- |
+| `animate-pulse`  | Subtle background orbs create atmosphere |
+| `animate-bounce` | Bouncing icons for visual prominence     |
 
 ### Content Updates Based on Documentation
 
@@ -154,13 +152,11 @@ I chose a **split layout** with copy/CTA on the left and interactive showcase on
 
 ## Assumptions
 
-| Assumption            | Reasoning                                                               |
-| --------------------- | ----------------------------------------------------------------------- |
-| **Primary persona**   | Content creators and small teams wanting fast creative production       |
-| **User intent**       | Visitors are evaluating whether AiBrush fits their workflow             |
-| **Demo availability** | A product demo video or screenshot can be generated/provided            |
-| **Brand colors**      | Purple/pink gradient derived from modern creative tool aesthetics       |
-| **Statistics**        | Social proof numbers (50,000+) are placeholders; replace with real data |
+| Assumption          | Reasoning                                                         |
+| ------------------- | ----------------------------------------------------------------- |
+| **Primary persona** | Content creators and small teams wanting fast creative production |
+| **User intent**     | Visitors are evaluating whether AiBrush fits their workflow       |
+| **Brand colors**    | Purple/pink gradient derived from modern creative tool aesthetics |
 
 ---
 
