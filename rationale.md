@@ -81,7 +81,6 @@ I chose a **split layout** with copy/CTA on the left and interactive showcase on
 1. **Immediate clarity** — Visitors see value proposition and product simultaneously
 2. **Interactive engagement** — Auto-rotating carousel shows Video/Image/Music/Voice capabilities
 3. **Clear hierarchy** — Eye naturally flows from headline → CTA → interactive demo
-4. **Comparison badge** — "Old Way vs AiBrush Way" immediately communicates value
 
 ### Key Design Elements Implemented
 
