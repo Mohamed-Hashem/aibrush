@@ -1,10 +1,8 @@
 import { memo } from "react";
 
-function SectionHeader({ label, headline, subheadline, align = "center", className = "", headlineId }) {
-  const alignClass = align === "center" ? "text-center" : "text-left";
-
+function SectionHeader({ label, headline, subheadline, className = "", headlineId }) {
   return (
-    <div className={`${alignClass} mb-12 lg:mb-16 ${className}`}>
+    <div className={`text-center mb-12 lg:mb-16 ${className}`}>
       {label && <p className="text-sm font-semibold text-purple-400 uppercase tracking-wide mb-2">{label}</p>}
       <h2 id={headlineId} className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
         {headline}

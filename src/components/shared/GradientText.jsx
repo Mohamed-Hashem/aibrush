@@ -1,16 +1,14 @@
 import { memo } from "react";
 
-const GRADIENT_PRESETS = {
-  primary: "from-purple-400 via-pink-500 to-orange-400",
-  purple: "from-purple-400 to-pink-400",
-};
-
-function GradientText({ children, gradient = "primary", className = "", as = "span" }) {
-  const gradientClass = GRADIENT_PRESETS[gradient] || gradient;
+function GradientText({ children, className = "", as = "span" }) {
   const Tag = as;
 
   return (
-    <Tag className={`bg-gradient-to-r ${gradientClass} bg-clip-text text-transparent ${className}`}>{children}</Tag>
+    <Tag
+      className={`bg-gradient-to-r from-purple-400 via-pink-500 to-orange-400 bg-clip-text text-transparent ${className}`}
+    >
+      {children}
+    </Tag>
   );
 }
 

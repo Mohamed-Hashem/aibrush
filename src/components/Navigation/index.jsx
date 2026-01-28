@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, memo } from "react";
+import { useState, useEffect, memo } from "react";
 import { ExternalLink, X, Menu } from "lucide-react";
 import { NAV_LINKS, EXTERNAL_URLS } from "../../constants";
 import { Button } from "../shared";
@@ -17,13 +17,13 @@ function Navigation() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const toggleMobileMenu = useCallback(() => {
+  const toggleMobileMenu = () => {
     setMobileMenuOpen((prev) => !prev);
-  }, []);
+  };
 
-  const closeMobileMenu = useCallback(() => {
+  const closeMobileMenu = () => {
     setMobileMenuOpen(false);
-  }, []);
+  };
 
   return (
     <header

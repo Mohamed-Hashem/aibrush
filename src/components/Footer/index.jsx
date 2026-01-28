@@ -3,6 +3,8 @@ import { SocialIcon } from "../shared";
 import { SOCIAL_LINKS, FOOTER_CONTENT } from "../../constants";
 import logo from "../../assets/logo.png";
 
+const currentYear = new Date().getFullYear();
+
 const Footer = memo(function Footer() {
   return (
     <footer className="text-gray-400 py-12 border-t border-white/5">
@@ -77,7 +79,7 @@ const Footer = memo(function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-400">
-            © {new Date().getFullYear()} {FOOTER_CONTENT.brand.name}. {FOOTER_CONTENT.copyright}
+            © {currentYear} {FOOTER_CONTENT.brand.name}. {FOOTER_CONTENT.copyright}
           </p>
           <div className="flex gap-6">
             {FOOTER_CONTENT.legalLinks.map((link, i) => (

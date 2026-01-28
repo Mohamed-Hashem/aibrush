@@ -1,4 +1,4 @@
-import { memo, useMemo } from "react";
+import { memo } from "react";
 import { Video, Image, Mic, Music, Film, MessageCircle } from "lucide-react";
 import { FEATURES_CONTENT, FEATURES_LIST, AI_MODELS } from "../../constants";
 import { Section, SectionHeader, Card, Badge } from "../shared";
@@ -16,7 +16,7 @@ const FeatureCard = memo(function FeatureCard({ feature }) {
   const IconComponent = FEATURE_ICONS[feature.iconType] || FEATURE_ICONS.video;
 
   return (
-    <Card as="article" variant="default" className="group">
+    <Card as="article" className="group">
       <div
         className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br ${feature.gradient} text-white mb-4 shadow-lg`}
       >
@@ -28,9 +28,7 @@ const FeatureCard = memo(function FeatureCard({ feature }) {
 
       <div className="flex flex-wrap gap-2">
         {feature.badges.map((badge, badgeIndex) => (
-          <Badge key={badgeIndex} variant="default" size="md">
-            {badge}
-          </Badge>
+          <Badge key={badgeIndex}>{badge}</Badge>
         ))}
       </div>
     </Card>
@@ -47,10 +45,8 @@ const AIModelBadge = memo(function AIModelBadge({ model }) {
 });
 
 function Features() {
-  const displayedModels = useMemo(() => AI_MODELS.slice(0, 8), []);
-
   return (
-    <Section id="features" bg="gradient-features" aria-labelledby="features-heading">
+    <Section id="features" aria-labelledby="features-heading">
       <SectionHeader
         headlineId="features-heading"
         label={FEATURES_CONTENT.label}
@@ -67,7 +63,7 @@ function Features() {
       <div className="mt-20 text-center">
         <p className="text-sm font-medium text-gray-400 mb-6">Powered by industry-leading AI models</p>
         <ul className="flex flex-wrap justify-center gap-3" aria-label="AI models">
-          {displayedModels.map((model, index) => (
+          {AI_MODELS.map((model, index) => (
             <li key={index}>
               <AIModelBadge model={model} />
             </li>

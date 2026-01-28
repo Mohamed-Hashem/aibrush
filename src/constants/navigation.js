@@ -9,14 +9,8 @@ export const EXTERNAL_URLS = {
   main: "https://aibrush.co",
   workspace: "https://aibrush.co/workspace",
   projects: "https://aibrush.co/projects",
-  pricing: "https://aibrush.co/pricing",
   docs: "https://docs.aibrush.co",
-  quickStart: "https://docs.aibrush.co/quick-start",
   examples: "https://docs.aibrush.co/examples",
-  aiModels: "https://docs.aibrush.co/ai-models",
-  privacy: "https://aibrush.co/coming-soon?page=privacy",
-  terms: "https://aibrush.co/coming-soon?page=terms",
-  support: "mailto:support@aibrush.co",
 };
 
 export const SOCIAL_LINKS = [

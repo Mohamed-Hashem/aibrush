@@ -1,6 +1,7 @@
 # Rationale — Hero Section Redesign
 
 ## Project Overview
+
 **Company:** AiBrush  
 **Task:** Redesign the hero section for aibrush.co landing page  
 **Date:** January 2026  
@@ -13,6 +14,7 @@
 ### Data Gathered from docs.aibrush.co
 
 **Core Features:**
+
 - Workspace (independent creative hub)
 - Timeline Editor (professional video editing)
 - AI Models (15+ premium models)
@@ -29,6 +31,7 @@
 | **Sound FX** | ElevenLabs | Cinematic soundscapes, various categories |
 
 **Key Workflow (from Quick Start):**
+
 1. Login → Access workspace
 2. Chat with AI to create projects
 3. Generate media (video, image, speech, music, SFX)
@@ -51,18 +54,19 @@ After analyzing the current aibrush.co website, several issues were identified:
 
 ## What should a visitor understand in 5 seconds?
 
-| Element | Message |
-|---------|---------|
-| **What it is** | All-in-one AI creative studio for videos, images, speech, music, and sound effects |
-| **Core value** | One workspace, 15+ premium AI models, professional timeline editing |
-| **Key differentiators** | Google Veo, Runway, Suno, Flux Pro, and more |
-| **Primary action** | Start Creating Free (links to aibrush.co/projects) |
+| Element                 | Message                                                                            |
+| ----------------------- | ---------------------------------------------------------------------------------- |
+| **What it is**          | All-in-one AI creative studio for videos, images, speech, music, and sound effects |
+| **Core value**          | One workspace, 15+ premium AI models, professional timeline editing                |
+| **Key differentiators** | Google Veo, Runway, Suno, Flux Pro, and more                                       |
+| **Primary action**      | Start Creating Free (links to aibrush.co/projects)                                 |
 
 ---
 
 ## Why did you choose this design direction?
 
 ### Design Decision: Dark Mode with Vibrant Gradients
+
 I chose a **dark theme with purple/pink gradients** because:
 
 1. **Modern & premium feel** — Dark mode conveys sophistication and aligns with creative pro tools (Adobe, Figma)
@@ -71,6 +75,7 @@ I chose a **dark theme with purple/pink gradients** because:
 4. **Brand differentiation** — Stands out from generic light-mode landing pages
 
 ### Layout Decision: Split Hero with Interactive Carousel
+
 I chose a **split layout** with copy/CTA on the left and interactive showcase on the right because:
 
 1. **Immediate clarity** — Visitors see value proposition and product simultaneously
@@ -80,40 +85,40 @@ I chose a **split layout** with copy/CTA on the left and interactive showcase on
 
 ### Key Design Elements Implemented
 
-| Element | Purpose |
-|---------|---------|
-| **Social proof badge** | "Trusted by 50,000+ creators" builds credibility |
-| **Feature checklist** | 4 key benefits with checkmarks for quick scanning |
-| **Interactive carousel** | Shows all 4 media types without overwhelming |
-| **Floating animated icons** | Adds depth and visual interest |
-| **Comparison badge** | "5+ Tools vs 1 Workspace" highlights key differentiator |
-| **Trust badges** | "No credit card required • Free forever plan" removes friction |
-| **Bottom CTA section** | Catches visitors who scroll past hero |
+| Element                     | Purpose                                                        |
+| --------------------------- | -------------------------------------------------------------- |
+| **Social proof badge**      | "Trusted by 50,000+ creators" builds credibility               |
+| **Feature checklist**       | 4 key benefits with checkmarks for quick scanning              |
+| **Interactive carousel**    | Shows all 4 media types without overwhelming                   |
+| **Floating animated icons** | Adds depth and visual interest                                 |
+| **Comparison badge**        | "5+ Tools vs 1 Workspace" highlights key differentiator        |
+| **Trust badges**            | "No credit card required • Free forever plan" removes friction |
+| **Bottom CTA section**      | Catches visitors who scroll past hero                          |
 
 ### Animation Strategy
 
-| Animation | Purpose |
-|-----------|---------|
-| `animate-pulse-slow` | Subtle background orbs create atmosphere |
-| `animate-float` | Floating icons add playfulness |
-| `animate-slide-left/right` | Entrance animations guide eye flow |
+| Animation         | Purpose                                   |
+| ----------------- | ----------------------------------------- |
+| `animate-pulse`   | Subtle background orbs create atmosphere  |
+| `animate-bounce`  | Bouncing icons for visual prominence      |
 | `animate-fade-in` | Staged content reveal maintains hierarchy |
 
 ### Content Updates Based on Documentation
 
-| Original | Updated | Source |
-|----------|---------|--------|
-| Generic "creative studio" | "Create Complete Videos in One Place" | docs.aibrush.co/ai-models |
-| No model mentions | Google Veo, Runway, Suno, Flux Pro, +15 more | docs.aibrush.co/ai-models |
-| 3 generic features | 6 accurate features: Video, Image, Speech, Music, Timeline, AI Chat | docs.aibrush.co |
-| Generic "How It Works" | 4 steps matching actual workflow | docs.aibrush.co/quick-start |
-| Placeholder social links | Real GitHub, X, Instagram, YouTube, TikTok | docs.aibrush.co footer |
+| Original                  | Updated                                                             | Source                      |
+| ------------------------- | ------------------------------------------------------------------- | --------------------------- |
+| Generic "creative studio" | "Create Complete Videos in One Place"                               | docs.aibrush.co/ai-models   |
+| No model mentions         | Google Veo, Runway, Suno, Flux Pro, +15 more                        | docs.aibrush.co/ai-models   |
+| 3 generic features        | 6 accurate features: Video, Image, Speech, Music, Timeline, AI Chat | docs.aibrush.co             |
+| Generic "How It Works"    | 4 steps matching actual workflow                                    | docs.aibrush.co/quick-start |
+| Placeholder social links  | Real GitHub, X, Instagram, YouTube, TikTok                          | docs.aibrush.co footer      |
 
 ---
 
 ## What alternatives did you explore and reject?
 
 ### Alternative 1: Light mode design
+
 - **Concept:** Clean white background with subtle gradients
 - **Rejected because:**
   - Dark mode feels more modern for creative tools
@@ -121,6 +126,7 @@ I chose a **split layout** with copy/CTA on the left and interactive showcase on
   - Better visual hierarchy with dark containers
 
 ### Alternative 2: Full-bleed background video
+
 - **Concept:** Cinematic video showing creative process with centered text overlay
 - **Rejected because:**
   - Slower page load (video files are heavy)
@@ -129,6 +135,7 @@ I chose a **split layout** with copy/CTA on the left and interactive showcase on
   - Mobile data concerns
 
 ### Alternative 3: Static product screenshot
+
 - **Concept:** Single screenshot of the workspace
 - **Rejected because:**
   - Interactive carousel shows more capabilities
@@ -136,6 +143,7 @@ I chose a **split layout** with copy/CTA on the left and interactive showcase on
   - Carousel creates engagement and visual interest
 
 ### Alternative 4: Carousel of user testimonials
+
 - **Concept:** Rotating showcase of user quotes in hero
 - **Rejected because:**
   - Users often miss content in carousels
@@ -146,25 +154,27 @@ I chose a **split layout** with copy/CTA on the left and interactive showcase on
 
 ## Assumptions
 
-| Assumption | Reasoning |
-|------------|-----------|
-| **Primary persona** | Content creators and small teams wanting fast creative production |
-| **User intent** | Visitors are evaluating whether AiBrush fits their workflow |
-| **Demo availability** | A product demo video or screenshot can be generated/provided |
-| **Brand colors** | Purple/pink gradient derived from modern creative tool aesthetics |
-| **Statistics** | Social proof numbers (50,000+) are placeholders; replace with real data |
+| Assumption            | Reasoning                                                               |
+| --------------------- | ----------------------------------------------------------------------- |
+| **Primary persona**   | Content creators and small teams wanting fast creative production       |
+| **User intent**       | Visitors are evaluating whether AiBrush fits their workflow             |
+| **Demo availability** | A product demo video or screenshot can be generated/provided            |
+| **Brand colors**      | Purple/pink gradient derived from modern creative tool aesthetics       |
+| **Statistics**        | Social proof numbers (50,000+) are placeholders; replace with real data |
 
 ---
 
 ## Technical Implementation
 
 ### Tech Stack
+
 - **Framework:** React 19.2
 - **Build Tool:** Vite 7.2
 - **Styling:** Tailwind CSS v4 (with @tailwindcss/vite plugin)
 - **State:** React hooks (useState for mobile menu, useEffect for carousel)
 
 ### Component Architecture
+
 ```
 src/
 ├── components/
@@ -178,77 +188,79 @@ src/
 ├── constants/          # Content and navigation data
 ├── assets/             # Static assets (logo, images)
 ├── App.jsx             # App with bottom CTA section & dark footer
-└── index.css           # Tailwind + custom animations
+└── index.css           # Tailwind base styles
 ```
 
 ### External Links (All verified from docs.aibrush.co)
-| Link | Destination |
-|------|-------------|
-| Start Creating Free | https://aibrush.co/projects |
-| View Examples | https://docs.aibrush.co/examples |
-| Open Workspace | https://aibrush.co/workspace |
-| Documentation | https://docs.aibrush.co |
-| Quick Start | https://docs.aibrush.co/quick-start |
-| AI Models | https://docs.aibrush.co/ai-models |
-| Pricing | https://aibrush.co/pricing |
-| GitHub | https://github.com/aibrush |
-| X (Twitter) | https://x.com/aibrushproject |
-| Instagram | https://www.instagram.com/aibrush.co |
-| YouTube | https://www.youtube.com/@aibrushproject |
-| TikTok | https://www.tiktok.com/@aibrushproject |
-| Support | support@aibrush.co |
+
+| Link                | Destination                             |
+| ------------------- | --------------------------------------- |
+| Start Creating Free | https://aibrush.co/projects             |
+| View Examples       | https://docs.aibrush.co/examples        |
+| Open Workspace      | https://aibrush.co/workspace            |
+| Documentation       | https://docs.aibrush.co                 |
+| Quick Start         | https://docs.aibrush.co/quick-start     |
+| AI Models           | https://docs.aibrush.co/ai-models       |
+| Pricing             | https://aibrush.co/pricing              |
+| GitHub              | https://github.com/aibrush              |
+| X (Twitter)         | https://x.com/aibrushproject            |
+| Instagram           | https://www.instagram.com/aibrush.co    |
+| YouTube             | https://www.youtube.com/@aibrushproject |
+| TikTok              | https://www.tiktok.com/@aibrushproject  |
+| Support             | support@aibrush.co                      |
 
 ### Accessibility Compliance
 
-| Requirement | Implementation |
-|-------------|----------------|
-| **Semantic HTML** | `<header>`, `<main>`, `<section>`, `<nav>`, `<article>` |
-| **Heading hierarchy** | Single `<h1>` in hero, `<h2>` in sections |
-| **ARIA labels** | All interactive elements have aria-labels |
-| **Focus states** | Visible focus rings on all focusable elements |
-| **Color contrast** | Brand colors tested for 4.5:1 minimum ratio |
-| **Keyboard navigation** | Full tab order support, Enter/Space activation |
-| **Reduced motion** | Respects prefers-reduced-motion |
-| **Screen reader** | alt text, aria-hidden for decorative elements |
+| Requirement             | Implementation                                          |
+| ----------------------- | ------------------------------------------------------- |
+| **Semantic HTML**       | `<header>`, `<main>`, `<section>`, `<nav>`, `<article>` |
+| **Heading hierarchy**   | Single `<h1>` in hero, `<h2>` in sections               |
+| **ARIA labels**         | All interactive elements have aria-labels               |
+| **Focus states**        | Visible focus rings on all focusable elements           |
+| **Color contrast**      | Brand colors tested for 4.5:1 minimum ratio             |
+| **Keyboard navigation** | Full tab order support, Enter/Space activation          |
+| **Reduced motion**      | Respects prefers-reduced-motion                         |
+| **Screen reader**       | alt text, aria-hidden for decorative elements           |
 
 ### Performance Considerations
 
-| Optimization | Applied |
-|--------------|---------|
-| **No external fonts** | Using system font stack |
-| **Minimal JS** | Only React state for mobile menu toggle |
-| **CSS-only animations** | No animation libraries |
-| **Lazy loading ready** | Structure supports lazy loading demo video |
-| **Optimized build** | Vite production build with tree-shaking |
+| Optimization            | Applied                                   |
+| ----------------------- | ----------------------------------------- |
+| **No external fonts**   | Using system font stack                   |
+| **Minimal JS**          | Only React state for interactive elements |
+| **CSS-only animations** | No animation libraries                    |
+| **Memoized components** | All components wrapped with React.memo    |
+| **Lazy loading**        | Features and HowItWorks lazy loaded       |
+| **Optimized build**     | Vite production build with tree-shaking   |
 
 ---
 
 ## Responsive Breakpoints
 
-| Breakpoint | Layout |
-|------------|--------|
-| **Mobile (< 640px)** | Stacked: copy above, demo below; hamburger menu |
-| **Tablet (640-1024px)** | Stacked with larger typography; expanded nav |
-| **Desktop (> 1024px)** | Side-by-side split layout; full navigation |
+| Breakpoint              | Layout                                          |
+| ----------------------- | ----------------------------------------------- |
+| **Mobile (< 640px)**    | Stacked: copy above, demo below; hamburger menu |
+| **Tablet (640-1024px)** | Stacked with larger typography; expanded nav    |
+| **Desktop (> 1024px)**  | Side-by-side split layout; full navigation      |
 
 ---
 
 ## Files Submitted
 
-| File | Description |
-|------|-------------|
-| `src/components/Hero/index.jsx` | Main hero with product mockup showing media tabs |
-| `src/components/Navigation/index.jsx` | Header with real AiBrush links |
-| `src/components/Features/index.jsx` | 6 feature cards + AI model showcase |
-| `src/components/HowItWorks/index.jsx` | 4-step workflow from Quick Start guide |
-| `src/components/BottomCTA/index.jsx` | Final call-to-action section |
-| `src/components/Footer/index.jsx` | Footer with social links |
-| `src/components/shared/` | Reusable UI components (Button, Card, Badge, Section, etc.) |
-| `src/constants/` | Content and navigation data |
-| `src/App.jsx` | App wrapper with all sections |
-| `src/index.css` | Tailwind config + custom animations |
-| `README.md` | Project documentation |
-| `rationale.md` | This documentation file |
+| File                                  | Description                                                 |
+| ------------------------------------- | ----------------------------------------------------------- |
+| `src/components/Hero/index.jsx`       | Main hero with product mockup showing media tabs            |
+| `src/components/Navigation/index.jsx` | Header with real AiBrush links                              |
+| `src/components/Features/index.jsx`   | 6 feature cards + AI model showcase                         |
+| `src/components/HowItWorks/index.jsx` | 4-step workflow from Quick Start guide                      |
+| `src/components/BottomCTA/index.jsx`  | Final call-to-action section                                |
+| `src/components/Footer/index.jsx`     | Footer with social links                                    |
+| `src/components/shared/`              | Reusable UI components (Button, Card, Badge, Section, etc.) |
+| `src/constants/`                      | Content and navigation data                                 |
+| `src/App.jsx`                         | App wrapper with all sections                               |
+| `src/index.css`                       | Tailwind base styles                                        |
+| `README.md`                           | Project documentation                                       |
+| `rationale.md`                        | This documentation file                                     |
 
 ---
 
@@ -285,12 +297,12 @@ npm run preview
 
 ### Current Website (aibrush.co) — Before Redesign
 
-| Category | Score | Status |
-|----------|-------|--------|
-| **Performance** | 78 | 🟠 Needs Improvement |
-| **Accessibility** | 94 | 🟢 Good |
-| **Best Practices** | 96 | 🟢 Good |
-| **SEO** | 75 | 🟠 Needs Improvement |
+| Category           | Score | Status               |
+| ------------------ | ----- | -------------------- |
+| **Performance**    | 78    | 🟠 Needs Improvement |
+| **Accessibility**  | 94    | 🟢 Good              |
+| **Best Practices** | 96    | 🟢 Good              |
+| **SEO**            | 75    | 🟠 Needs Improvement |
 
 **Performance Metrics (Current Site):**
 | Metric | Value | Status |
@@ -302,6 +314,7 @@ npm run preview
 | Speed Index | 2.2s | 🟠 |
 
 **Issues Identified:**
+
 - Render blocking requests (520ms potential savings)
 - Unused JavaScript (1,618 KiB potential savings)
 - Minify JavaScript needed (1,281 KiB potential savings)
@@ -316,12 +329,12 @@ npm run preview
 
 ### Redesigned Website (This Project) — After Redesign
 
-| Category | Score | Status |
-|----------|-------|--------|
-| **Performance** | 100 | 🟢 Perfect |
-| **Accessibility** | 100 | 🟢 Perfect |
-| **Best Practices** | 100 | 🟢 Perfect |
-| **SEO** | 100 | 🟢 Perfect |
+| Category           | Score | Status     |
+| ------------------ | ----- | ---------- |
+| **Performance**    | 100   | 🟢 Perfect |
+| **Accessibility**  | 100   | 🟢 Perfect |
+| **Best Practices** | 100   | 🟢 Perfect |
+| **SEO**            | 100   | 🟢 Perfect |
 
 **Performance Metrics (Redesigned):**
 | Metric | Value | Improvement |
@@ -336,37 +349,37 @@ npm run preview
 
 ### Performance Improvement Summary
 
-| Metric | Before | After | Improvement |
-|--------|--------|-------|-------------|
-| **Performance Score** | 78 | 100 | **+22 points** |
-| **Accessibility Score** | 94 | 100 | **+6 points** |
-| **Best Practices Score** | 96 | 100 | **+4 points** |
-| **SEO Score** | 75 | 100 | **+25 points** |
-| **FCP** | 1.6s | 0.5s | **69% faster** |
-| **LCP** | 2.3s | 0.5s | **78% faster** |
-| **TBT** | 100ms | 0ms | **100% faster** |
-| **Speed Index** | 2.2s | 0.5s | **77% faster** |
+| Metric                   | Before | After | Improvement     |
+| ------------------------ | ------ | ----- | --------------- |
+| **Performance Score**    | 78     | 100   | **+22 points**  |
+| **Accessibility Score**  | 94     | 100   | **+6 points**   |
+| **Best Practices Score** | 96     | 100   | **+4 points**   |
+| **SEO Score**            | 75     | 100   | **+25 points**  |
+| **FCP**                  | 1.6s   | 0.5s  | **69% faster**  |
+| **LCP**                  | 2.3s   | 0.5s  | **78% faster**  |
+| **TBT**                  | 100ms  | 0ms   | **100% faster** |
+| **Speed Index**          | 2.2s   | 0.5s  | **77% faster**  |
 
 ### Key Optimizations Applied
 
 1. **No external fonts** — Using system font stack eliminates font download time
 2. **Minimal JavaScript** — Only React state for interactive elements
 3. **CSS-only animations** — No heavy animation libraries
-4. **Tree-shaking** — Vite production build removes unused code
-5. **Optimized images** — Proper sizing and lazy loading ready
-6. **Semantic HTML** — All buttons have accessible names
-7. **Valid meta tags** — Proper SEO meta description included
-8. **Valid robots.txt** — Clean crawling configuration
+4. **Memoized components** — All components wrapped with React.memo for performance
+5. **Lazy loading** — Features and HowItWorks sections lazy loaded
+6. **Tree-shaking** — Vite production build removes unused code
+7. **Semantic HTML** — All buttons have accessible names
+8. **Valid meta tags** — Proper SEO meta description included
 
 ---
 
 ## Metrics to Track Post-Launch
 
-| Metric | Target | Current Status |
-|--------|--------|----------------|
-| Hero CTA click-through rate | > 15% | To be measured |
-| Bounce rate | < 40% | To be measured |
-| Time to first interaction | < 3 seconds | ✅ Achieved (0.5s) |
-| Mobile vs desktop conversion | Parity within 10% | To be measured |
-| Accessibility score (Lighthouse) | > 95 | ✅ Achieved (100) |
-| Performance score (Lighthouse) | > 90 | ✅ Achieved (100) |
+| Metric                           | Target            | Current Status     |
+| -------------------------------- | ----------------- | ------------------ |
+| Hero CTA click-through rate      | > 15%             | To be measured     |
+| Bounce rate                      | < 40%             | To be measured     |
+| Time to first interaction        | < 3 seconds       | ✅ Achieved (0.5s) |
+| Mobile vs desktop conversion     | Parity within 10% | To be measured     |
+| Accessibility score (Lighthouse) | > 95              | ✅ Achieved (100)  |
+| Performance score (Lighthouse)   | > 90              | ✅ Achieved (100)  |

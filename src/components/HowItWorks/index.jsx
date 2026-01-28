@@ -15,7 +15,7 @@ const StepCard = memo(function StepCard({ step }) {
 
   return (
     <div className="relative">
-      <Card variant="default" className="h-full">
+      <Card className="h-full">
         <div
           className={`inline-flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br ${step.gradient} text-white mb-4 relative z-10 shadow-lg`}
         >
@@ -37,7 +37,7 @@ const StepCard = memo(function StepCard({ step }) {
 
 function HowItWorks() {
   return (
-    <Section id="how-it-works" bg="gradient-steps" aria-labelledby="how-it-works-heading">
+    <Section id="how-it-works" aria-labelledby="how-it-works-heading">
       <SectionHeader
         headlineId="how-it-works-heading"
         label={HOW_IT_WORKS_CONTENT.label}

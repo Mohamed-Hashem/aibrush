@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, memo } from "react";
 import { Video, Music, Mic, Image, Play, ArrowRight, Check, MessageCircle } from "lucide-react";
 import { HERO_EXAMPLES, HERO_FEATURES, EXTERNAL_URLS } from "../../constants";
 import { Button } from "../shared";
@@ -72,7 +72,13 @@ function Hero() {
                 Start Creating Free
               </Button>
 
-              <Button href={EXTERNAL_URLS.examples} external variant="secondary" size="lg" iconLeft={<Play className="w-5 h-5" />}>
+              <Button
+                href={EXTERNAL_URLS.examples}
+                external
+                variant="secondary"
+                size="lg"
+                iconLeft={<Play className="w-5 h-5" />}
+              >
                 See Examples
               </Button>
             </div>
@@ -113,7 +119,10 @@ function Hero() {
               </div>
 
               <div className="relative h-48 sm:h-56 rounded-xl overflow-hidden mb-6">
-                <div className={`absolute inset-0 bg-gradient-to-br ${example.gradient} opacity-20`} aria-hidden="true" />
+                <div
+                  className={`absolute inset-0 bg-gradient-to-br ${example.gradient} opacity-20`}
+                  aria-hidden="true"
+                />
                 <div className="relative h-full flex flex-col items-center justify-center p-6 text-center">
                   <div className="w-16 h-16 sm:w-20 sm:h-20 mb-4 rounded-2xl bg-white/10 backdrop-blur-sm flex items-center justify-center">
                     <IconComponent className="w-8 h-8 sm:w-10 sm:h-10" aria-hidden="true" />
@@ -169,4 +178,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default memo(Hero);
