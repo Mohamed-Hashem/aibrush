@@ -3,7 +3,6 @@ import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import BottomCTA from "./components/BottomCTA";
 import Footer from "./components/Footer";
-import "./App.css";
 
 const Features = lazy(() => import("./components/Features"));
 const HowItWorks = lazy(() => import("./components/HowItWorks"));

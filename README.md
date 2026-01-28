@@ -26,7 +26,7 @@ src/
 ├── constants/          # Content and navigation data
 ├── assets/             # Static assets (logo, images)
 ├── App.jsx             # Main app component
-└── index.css           # Tailwind + base focus styles
+└── index.css           # Tailwind import + minimal base styles
 ```
 
 ## Getting Started
@@ -51,8 +51,8 @@ npm run preview
 - **Interactive Carousel** — Auto-rotating showcase of Video/Image/Music/Voice capabilities
 - **Responsive Layout** — Mobile-first design with breakpoints at 640px and 1024px
 - **Accessibility** — Semantic HTML, ARIA labels, keyboard navigation, focus states
-- **Performance** — Memoized components, lazy loading, CSS-only animations, system fonts
-- **Clean Architecture** — Minimal dependencies, no unused code, optimized bundle size
+- **Performance** — Memoized components, lazy loading, CSS-only animations, system font stack
+- **Clean Architecture** — Minimal dependencies, single-use components, optimized bundle size
 
 ## Lighthouse Performance Comparison
 

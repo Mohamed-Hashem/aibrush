@@ -35,7 +35,16 @@ function Navigation() {
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <div className="flex items-center justify-between h-16">
-          <a href="/" className="flex items-center gap-2 group" aria-label="AiBrush Home">
+          <a
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: "smooth" });
+              window.history.replaceState(null, "", "/");
+            }}
+            className="flex items-center gap-2 group"
+            aria-label="AiBrush Home"
+          >
             <img
               src={logo}
               alt="AiBrush"

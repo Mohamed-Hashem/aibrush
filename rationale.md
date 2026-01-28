@@ -214,7 +214,6 @@ src/
 | **Focus states**        | Visible focus rings on all focusable elements           |
 | **Color contrast**      | Brand colors tested for 4.5:1 minimum ratio             |
 | **Keyboard navigation** | Full tab order support, Enter/Space activation          |
-| **Reduced motion**      | Respects prefers-reduced-motion                         |
 | **Screen reader**       | alt text, aria-hidden for decorative elements           |
 
 ### Performance Considerations
