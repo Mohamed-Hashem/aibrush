@@ -58,7 +58,7 @@ function HowItWorks() {
         </div>
       </div>
 
-      <div className="mt-16 text-center">
+      <div className="mt-8 text-center">
         <Button
           href={EXTERNAL_URLS.projects}
           external

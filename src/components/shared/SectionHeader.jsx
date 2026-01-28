@@ -2,7 +2,7 @@ import { memo } from "react";
 
 function SectionHeader({ label, headline, subheadline, className = "", headlineId }) {
   return (
-    <div className={`text-center mb-12 lg:mb-16 ${className}`}>
+    <div className={`text-center my-6 lg:mb-16 ${className}`}>
       {label && <p className="text-sm font-semibold text-purple-400 uppercase tracking-wide mb-2">{label}</p>}
       <h2 id={headlineId} className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
         {headline}
