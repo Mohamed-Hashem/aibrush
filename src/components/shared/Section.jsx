@@ -12,8 +12,6 @@ function Section({
   bg = "",
   padding = "lg",
   className = "",
-  showTopFade = false,
-  showBottomFade = false,
   "aria-labelledby": ariaLabelledBy,
   ...props
 }) {
@@ -26,20 +24,6 @@ function Section({
       aria-labelledby={ariaLabelledBy}
       {...props}
     >
-      {showTopFade && (
-        <div
-          className="absolute top-0 left-0 right-0 h-32 sm:h-48 bg-gradient-to-b from-purple-950/30 via-slate-950/80 to-transparent pointer-events-none"
-          aria-hidden="true"
-        />
-      )}
-
-      {showBottomFade && (
-        <div
-          className="absolute bottom-0 left-0 right-0 h-32 sm:h-48 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent pointer-events-none"
-          aria-hidden="true"
-        />
-      )}
-
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">{children}</div>
     </section>
   );

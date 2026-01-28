@@ -66,24 +66,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 120px;
-}
-
 :focus-visible {
   outline: 2px solid var(--color-brand-500);
   outline-offset: 2px;
-}
-
-.animate-float,
-.animate-pulse-slow {
-  will-change: transform, opacity;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  transform: translateZ(0);
-}
-
-[class*="animate-"] {
-  contain: layout style;
 }

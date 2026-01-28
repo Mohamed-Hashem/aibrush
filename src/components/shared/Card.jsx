@@ -6,20 +6,6 @@ const CARD_VARIANTS = {
     border border-white/10
     hover:border-white/20 hover:bg-slate-800/80
   `,
-  glass: `
-    bg-gradient-to-br from-white/10 to-white/5 
-    backdrop-blur-xl
-    border border-white/20
-  `,
-  solid: `
-    bg-slate-800
-    border border-white/10
-  `,
-  highlight: `
-    bg-gradient-to-r from-green-500/20 to-emerald-500/20
-    border border-green-500/30
-    backdrop-blur-sm
-  `,
 };
 
 const CARD_PADDING = {

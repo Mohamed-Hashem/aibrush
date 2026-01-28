@@ -3,8 +3,6 @@ import { memo } from "react";
 const BADGE_VARIANTS = {
   default: "bg-white/10 text-gray-300 border border-white/5",
   gradient: "bg-gradient-to-r from-purple-500/20 to-pink-500/20 text-white border border-purple-500/30",
-  outline: "border border-white/20 text-gray-300",
-  success: "bg-green-500/20 text-green-400 border border-green-500/30",
 };
 
 const BADGE_SIZES = {

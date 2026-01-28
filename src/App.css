@@ -3,13 +3,3 @@
   margin: 0;
   padding: 0;
 }
-
-body {
-  overflow-x: hidden;
-}
-header[class*="fixed"] {
-  will-change: background-color, backdrop-filter;
-  transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}

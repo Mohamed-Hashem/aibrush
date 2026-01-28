@@ -2,6 +2,8 @@
 
 A redesigned hero section for [aibrush.co](https://aibrush.co) — an all-in-one AI creative studio for videos, images, speech, music, and sound effects.
 
+🔗 **[Live Demo](https://aibrush-studio.vercel.app/)** | 📦 **[GitHub Repository](https://github.com/Mohamed-Hashem/aibrush)**
+
 ## Tech Stack
 
 - **Framework:** React 19.2
@@ -55,21 +57,21 @@ npm run preview
 
 ### Before (aibrush.co) vs After (This Redesign)
 
-| Category | Before | After | Improvement |
-|----------|--------|-------|-------------|
-| **Performance** | 78 | 100 | +22 points |
-| **Accessibility** | 94 | 100 | +6 points |
-| **Best Practices** | 96 | 100 | +4 points |
-| **SEO** | 75 | 100 | +25 points |
+| Category           | Before | After | Improvement |
+| ------------------ | ------ | ----- | ----------- |
+| **Performance**    | 78     | 100   | +22 points  |
+| **Accessibility**  | 94     | 100   | +6 points   |
+| **Best Practices** | 96     | 100   | +4 points   |
+| **SEO**            | 75     | 100   | +25 points  |
 
 ### Core Web Vitals Improvement
 
-| Metric | Before | After | Improvement |
-|--------|--------|-------|-------------|
-| First Contentful Paint | 1.6s | 0.5s | **69% faster** |
-| Largest Contentful Paint | 2.3s | 0.5s | **78% faster** |
-| Total Blocking Time | 100ms | 0ms | **100% faster** |
-| Speed Index | 2.2s | 0.5s | **77% faster** |
+| Metric                   | Before | After | Improvement     |
+| ------------------------ | ------ | ----- | --------------- |
+| First Contentful Paint   | 1.6s   | 0.5s  | **69% faster**  |
+| Largest Contentful Paint | 2.3s   | 0.5s  | **78% faster**  |
+| Total Blocking Time      | 100ms  | 0ms   | **100% faster** |
+| Speed Index              | 2.2s   | 0.5s  | **77% faster**  |
 
 ### Issues Fixed from Original Site
 
@@ -84,6 +86,7 @@ npm run preview
 ## Design Decisions
 
 See [rationale.md](rationale.md) for detailed documentation on:
+
 - Research summary from docs.aibrush.co
 - Problems identified with the current hero section
 - What visitors should understand in 5 seconds
@@ -94,12 +97,12 @@ See [rationale.md](rationale.md) for detailed documentation on:
 
 ## External Links
 
-| Link | Destination |
-|------|-------------|
-| Start Creating Free | https://aibrush.co/projects |
-| Open Workspace | https://aibrush.co/workspace |
-| Documentation | https://docs.aibrush.co |
-| Pricing | https://aibrush.co/pricing |
+| Link                | Destination                  |
+| ------------------- | ---------------------------- |
+| Start Creating Free | https://aibrush.co/projects  |
+| Open Workspace      | https://aibrush.co/workspace |
+| Documentation       | https://docs.aibrush.co      |
+| Pricing             | https://aibrush.co/pricing   |
 
 ## License
 

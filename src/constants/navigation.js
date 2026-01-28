@@ -6,7 +6,6 @@ export const NAV_LINKS = [
 ];
 
 export const EXTERNAL_URLS = {
-  home: "https://aibrush.co",
   main: "https://aibrush.co",
   workspace: "https://aibrush.co/workspace",
   projects: "https://aibrush.co/projects",
